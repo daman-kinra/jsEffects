@@ -1,13 +1,13 @@
 const div = document.getElementById('kid');
 $(".cont").hide();
 var tl = gsap.timeline();
-tl.fromTo(div, {x: -200} , {duration: 5, x:  (screen.width/2 - div.offsetWidth/2 + 4),ease: "back"});
+tl.fromTo(div, {x: -300} , {duration: 8, x:  (screen.width/2 - div.offsetWidth/2 + 4),ease: "smooth"});
 setTimeout(()=>{
     $(".cont").show();
-},5000)
+},7000)
 setTimeout(()=>{
     confetti.start();
-},5000)
+},7000)
 setTimeout(()=>{
     confetti.stop();
-},10000)
+},12000)
