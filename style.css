@@ -30,6 +30,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 45px;
     
 }
 .p{
@@ -53,7 +54,7 @@ img{
     min-height: 16vh;
 }
 .nav.nav1{
-    min-height: 60vh;
+    min-height: 55vh;
     z-index: 1;
     background-color: #1aa6b7;
     border-bottom: 2px solid black;
