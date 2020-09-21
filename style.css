@@ -14,7 +14,7 @@
 }
 #kid{
     height: 250px;
-    width: 400px;
+    width: 350px;
     position: absolute;
     bottom: 0%;
     left: 0%;
@@ -22,7 +22,7 @@
 }
 img{
     height: 250px;
-    width: 400px;
+    width: 350px;
 }
 .cont{
     height: 100px;
@@ -58,7 +58,7 @@ img{
     min-height: 55vh;
     z-index: 1;
     background-color: #87c9d5;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #9c9c9c;
 }
 .icon{
     display: flex;
