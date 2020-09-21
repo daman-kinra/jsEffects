@@ -34,7 +34,7 @@ img{
     
 }
 .p{
-    color: #1aa6b7;
+    color: #87c9d5;
     font-size: 57px;
     font-family: 'Dancing Script', cursive;
     text-shadow: 2px 2px rgba(0, 0,0,0.3);
@@ -42,13 +42,14 @@ img{
 .nav{
     min-height: 14vh;
     width: 100%;
-    border-bottom: 2px solid #1aa6b7;
+    border-bottom: 2px solid #87c9d5;
     position: absolute;
     top: 0%;
     box-shadow: 0px 0px 5px 0px #d9ecf2;
     transition: 0.6s ease-out;
     background-color: #d9ecf2;
     z-index: 1;
+    cursor: pointer;
 }
 .nav:hover{
     min-height: 16vh;
@@ -56,7 +57,7 @@ img{
 .nav.nav1{
     min-height: 55vh;
     z-index: 1;
-    background-color: #1aa6b7;
+    background-color: #87c9d5;
     border-bottom: 2px solid black;
 }
 .icon{

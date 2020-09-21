@@ -3,20 +3,20 @@ $(".cont").hide();
 $(".icon").hide();
 $(".greet").hide();
 var tl = gsap.timeline();
-tl.fromTo(div, {x: -300} , {duration: 8, x:  (screen.width/2 - div.offsetWidth/2 + 4),ease: "smooth"});
+tl.fromTo(div, {x: -300} , {duration: 6, x:  (screen.width/2 - div.offsetWidth/2 + 1),ease: "smooth"});
 
 setTimeout(()=>{
     $(".cont").show();
-},7000)
+},6000)
 
 setTimeout(()=>{
     confetti.start();
-},7000)
+},6000)
 
 setTimeout(()=>{
     confetti.stop();
     $(".icon").show();
-},12000)
+},10000)
 
 
 
