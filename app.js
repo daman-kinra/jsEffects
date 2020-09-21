@@ -3,7 +3,7 @@ $(".cont").hide();
 $(".icon").hide();
 $(".greet").hide();
 var tl = gsap.timeline();
-tl.fromTo(div, {x: -300} , {duration: 6, x:  (screen.width/2 - div.offsetWidth/2 + 1),ease: "smooth"});
+tl.fromTo(div, {x: -300} , {duration: 6, x:  (screen.width/2 - div.offsetWidth/2),ease: "smooth"});
 
 setTimeout(()=>{
     $(".cont").show();
